@@ -3,7 +3,7 @@
 Lab Cisco Packet Tracer : le réseau d'une petite entreprise, avec un réseau **interne** et un réseau **Wi‑Fi invités** séparés par VLAN et isolés par un pare-feu Cisco ASA.
 
 > Fichier : [`little_compny_network_2_vlans.pkt`](little_compny_network_2_vlans.pkt), créé avec **Packet Tracer 9.0**.
-> Les configurations des équipements sont aussi disponibles en texte dans [`configs/`](configs/).
+> Configurations complètes des équipements : [Switch0](configs/switch0_2960.md) · [Router0](configs/router0_2911.md) · [ASA0](configs/asa0_5506x.md). Consignes du projet : [consignes.md](consignes.md).
 
 ---
 
@@ -19,7 +19,7 @@ Lab Cisco Packet Tracer : le réseau d'une petite entreprise, avec un réseau **
 
 ## Topologie
 
-![Topologie dans Packet Tracer](rendu.png)
+![Topologie dans Packet Tracer](rendus/rendu_final.png)
 
 ```
                          ┌──────────────┐
@@ -189,12 +189,16 @@ Sur le switch : `show vlan brief`.
 ```
 .
 ├── README.md
+├── consignes.md                        # Consignes du projet
 ├── little_compny_network_2_vlans.pkt   # Projet Packet Tracer 9.0
-├── rendu.png                           # Capture de la topologie
-└── configs/
-    ├── switch0_2960.txt                # running-config Switch0
-    ├── router0_2911.txt                # running-config Router0
-    └── asa0_5506x.txt                  # running-config ASA0
+├── configs/
+│   ├── switch0_2960.md                 # running-config Switch0
+│   ├── router0_2911.md                 # running-config Router0
+│   └── asa0_5506x.md                   # running-config ASA0
+└── rendus/
+    ├── rendu_final.png                 # Capture de la topologie
+    ├── interfaces_switch.png
+    └── vlans.png
 ```
 
 ## Ouvrir le projet
