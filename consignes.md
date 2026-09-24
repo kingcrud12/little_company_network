@@ -1,4 +1,4 @@
-# Consignes : réseau d'une petite entreprise (2 VLANs)
+# Consignes : réseau d'une entreprise (2 VLANs)
 
 [← Retour au README](README.md)
 
@@ -12,14 +12,14 @@ Le réseau est à réaliser sous **Cisco Packet Tracer**.
 
 ## Matériel imposé
 
-| Quantité | Équipement | Rôle |
-|---|---|---|
-| 1 | Routeur Cisco 2911 | Routeur de bordure (sortie vers l'extérieur) |
-| 1 | Pare-feu Cisco ASA 5506-X | Filtrage entre les zones, passerelle des VLANs |
-| 1 | Switch Cisco 2960-24TT | Switch d'accès, porte les VLANs |
-| 1 | Serveur | Services internes (DHCP, web, mail, fichiers…) |
-| 2 | Points d'accès Wi‑Fi | Un par VLAN |
-| 5 | Ordinateurs portables | 3 internes, 2 invités |
+| Quantité | Équipement                | Rôle                                           |
+| -------- | ------------------------- | ---------------------------------------------- |
+| 1        | Routeur Cisco 2911        | Routeur de bordure (sortie vers l'extérieur)   |
+| 1        | Pare-feu Cisco ASA 5506-X | Filtrage entre les zones, passerelle des VLANs |
+| 1        | Switch Cisco 2960-24TT    | Switch d'accès, porte les VLANs                |
+| 1        | Serveur                   | Services internes (DHCP, web, mail, fichiers…) |
+| 2        | Points d'accès Wi‑Fi      | Un par VLAN                                    |
+| 5        | Ordinateurs portables     | 3 internes, 2 invités                          |
 
 ## Travail demandé
 
